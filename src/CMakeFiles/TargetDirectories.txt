@@ -1,0 +1,3 @@
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/CMakeFiles/rebuild_cache.dir
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/CMakeFiles/DNNLib.dir
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/CMakeFiles/edit_cache.dir
