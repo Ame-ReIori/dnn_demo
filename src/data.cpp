@@ -16,11 +16,3 @@ void Data::read(std::string filename, int feature_num,
         }
     }
 }
-
-int main() {
-    Data d("../data/");
-    d.read("features.bin", 2, 0, 200, d.train_data);
-    d.read("label.bin", 1, 0, 200, d.train_label);
-    std::cout << std::fixed << std::setprecision(15) << d.train_data << std::endl;
-    std::cout << std::fixed << std::setprecision(15) << d.train_label << std::endl;
-}

@@ -7,7 +7,7 @@
 
 #include "../layer.h"
 
-class RELU: public Layer {
+class ReLU: public Layer {
     public:
         void forward(const Matrix& bottom);
         void backward(const Matrix& bottom, const Matrix& grad_top);

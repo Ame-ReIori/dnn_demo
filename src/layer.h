@@ -19,7 +19,7 @@ class Layer {
 
         virtual void forward(const Matrix& bottom) = 0;
         virtual void backward(const Matrix& bottom, const Matrix& grad_top) = 0;
-        virtual void update(Optimizer& opt);
+        virtual void update(Optimizer& opt) {}
         virtual const Matrix& output() { return top; }
         virtual const Matrix& back_gradient() { return grad; }
         virtual int output_dim() { return -1; }
@@ -29,7 +29,7 @@ class Layer {
         virtual std::vector<double> get_derivatives() const {
             return std::vector<double>();
         }
-        virtual void set_parameters(const std::vector<double>& parameters);
+        virtual void set_parameters(const std::vector<double>& parameters) {}
 };
 
 #endif

@@ -7,7 +7,7 @@ void FullConnect::init() {
     weight.resize(dim_in, dim_out);
     bias.resize(dim_out);
     grad_weight.resize(dim_in, dim_out);
-    grad_bias(dim_out);
+    grad_bias.resize(dim_out);
     set_normal_random(weight.data(), weight.size(), 0, 0.1);
     set_normal_random(bias.data(), bias.size(), 0, 0.1);
 }
@@ -28,7 +28,7 @@ void FullConnect::backward(const Matrix &bottom, const Matrix &grad_top) {
     grad_weight = bottom * grad_top.transpose();
     grad_bias = grad_top.rowwise().sum();
     // d(L)/d(x) = w * d(L)/d(z)
-    grad.resize(dim_out, sample_num);
+    grad.resize(dim_in, sample_num);
     grad = weight * grad_top;
 }
 
