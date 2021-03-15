@@ -13,7 +13,7 @@
 
 typedef Eigen::Matrix<double, Eigen::Dynamic, Eigen::Dynamic> Matrix;
 typedef Eigen::Matrix<double, Eigen::Dynamic, 1> Vector;
-typedef Eigen::Matrix<double, 1, Eigen::Dynamic> RowVector;
+typedef Eigen::Array<double, 1, Eigen::Dynamic> RowVector;
 
 static std::random_device seed_gen;
 static std::mt19937_64 prg;

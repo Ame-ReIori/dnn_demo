@@ -54,6 +54,13 @@ int main(int argc, char **argv) {
     dnn.add_loss(loss);
     SGD opt(0.001, 0.0, 0.0, false);
 
+
+    #ifdef DEBUG  
+        std::cout << "the parameters as followed:" << std::endl;
+        std::vector<std::vector<double>> para = dnn.get_parameters();
+        std::for_each(para.begin(), para.end(), p);
+    #endif
+
     const int epoch = 100;
     
     
@@ -61,11 +68,6 @@ int main(int argc, char **argv) {
         dnn.forward(d.train_data);
         dnn.backward(d.train_data, d.train_label);
 
-        #ifdef DEBUG  
-            std::cout << "the parameters as followed:" << std::endl;
-            std::vector<std::vector<double>> para = dnn.get_parameters();
-            std::for_each(para.begin(), para.end(), p);
-        #endif
         #ifndef DEBUG
             std::cout << i << "-th epoch, loss: " << dnn.get_loss() << std::endl;
         #else
