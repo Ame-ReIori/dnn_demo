@@ -5,4 +5,6 @@ aux_source_directory(./optimizer DIR_LIB_SRCS)
 aux_source_directory(./loss DIR_LIB_SRCS)
 aux_source_directory(./layer DIR_LIB_SRCS)
 
+add_definitions(-DDEBUG)
+
 add_library(DNNLib ${DIR_LIB_SRCS})

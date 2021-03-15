@@ -34,6 +34,21 @@ inline uint64_t reverse64(uint64_t num) {
     return num;
 }
 
+inline void print_matrix(const Matrix& m) {
+    std::cout << m << std::endl;
+}
+
+inline double compute_accuracy(const Matrix& preditions, const Matrix& labels) {
+  int n = preditions.cols();
+  float acc = 0;
+  for (int i = 0; i < n; i ++) {
+    Matrix::Index max_index;
+    float max_value = preditions.col(i).maxCoeff(&max_index);
+    acc += int(max_index) == labels(i);
+  }
+  return acc / n;
+}
+
 #ifdef DEBUG
     #include <typeinfo>
     #include <iomanip>

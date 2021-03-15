@@ -8,8 +8,8 @@ void FullConnect::init() {
     bias.resize(dim_out);
     grad_weight.resize(dim_in, dim_out);
     grad_bias.resize(dim_out);
-    set_normal_random(weight.data(), weight.size(), 0, 0.1);
-    set_normal_random(bias.data(), bias.size(), 0, 0.1);
+    set_normal_random(weight.data(), weight.size(), 0, 0.01);
+    set_normal_random(bias.data(), bias.size(), 0, 0.01);
 }
 
 void FullConnect::forward(const Matrix &bottom) {
@@ -21,7 +21,6 @@ void FullConnect::forward(const Matrix &bottom) {
 
 void FullConnect::backward(const Matrix &bottom, const Matrix &grad_top) {
     const int sample_num = bottom.cols();
-
     // calculate gradient
     // d(L)/d(w') = d(L)/d(z) * x'
     // d(L)/d(b) = \sum{ d(L)/d(z_i) }
@@ -53,6 +52,7 @@ std::vector<double> FullConnect::get_derivatives() const {
     std::vector<double> res(grad_weight.size() + grad_bias.size());
     std::copy(grad_weight.data(), grad_weight.data() + grad_weight.size(), res.begin());
     std::copy(grad_bias.data(), grad_bias.data() + grad_bias.size(), res.begin() + grad_weight.size());
+    return res;
 }
 
 void FullConnect::set_parameters(const std::vector<double> parameters) {

@@ -6,6 +6,7 @@
 void Network::forward(const Matrix &input) {
     if (layers.empty()) return;
     layers[0]->forward(input);
+
     for (int i = 1; i < layers.size(); i++) {
         layers[i]->forward(layers[i-1]->output());
     }
@@ -21,7 +22,6 @@ void Network::backward(const Matrix &input, const Matrix &target) {
         layers[0]->backward(input, loss->back_gradient());
         return;
     }
-
     layers[layer_num-1]->backward(layers[layer_num-2]->output(), 
                                     loss->back_gradient());
     for (int i = layer_num - 2; i > 0; i--) {
