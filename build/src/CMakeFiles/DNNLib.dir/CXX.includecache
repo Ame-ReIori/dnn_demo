@@ -44,6 +44,12 @@ iomanip
 string
 -
 
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/./embedding.h
+./utils.h
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/././utils.h
+unordered_map
+-
+
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/./network.h
 ./utils.h
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/././utils.h
@@ -78,6 +84,18 @@ iomanip
 ./utils.h
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/./utils.h
 fstream
+-
+
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.cpp
+./embedding.h
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/./embedding.h
+utils.h
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/utils.h
+algorithm
+-
+iterator
+-
+vector
 -
 
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/./full_connect.h
@@ -147,4 +165,20 @@ unordered_map
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/optimizer/sgd.cpp
 ./sgd.h
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/optimizer/./sgd.h
+
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/utils.h
+eigen3/Eigen/Core
+-
+iostream
+-
+algorithm
+-
+random
+-
+ios
+-
+typeinfo
+-
+iomanip
+-
 

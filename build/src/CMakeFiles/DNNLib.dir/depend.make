@@ -5,6 +5,11 @@ src/CMakeFiles/DNNLib.dir/data.cpp.o: ../src/./data.h
 src/CMakeFiles/DNNLib.dir/data.cpp.o: ../src/./utils.h
 src/CMakeFiles/DNNLib.dir/data.cpp.o: ../src/data.cpp
 
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o: ../src/././utils.h
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o: ../src/./embedding.h
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o: ../src/embedding.cpp
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o: ../src/utils.h
+
 src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o: ../src/layer/./full_connect.h
 src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o: ../src/layer/full_connect.cpp
 

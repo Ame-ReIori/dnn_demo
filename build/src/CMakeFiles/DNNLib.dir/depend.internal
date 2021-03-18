@@ -5,6 +5,11 @@ src/CMakeFiles/DNNLib.dir/data.cpp.o
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/./data.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/./utils.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/data.cpp
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o
+ /home/ame/GraduationProject/Code/demo/dnn_demo/src/././utils.h
+ /home/ame/GraduationProject/Code/demo/dnn_demo/src/./embedding.h
+ /home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.cpp
+ /home/ame/GraduationProject/Code/demo/dnn_demo/src/utils.h
 src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/./full_connect.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/full_connect.cpp

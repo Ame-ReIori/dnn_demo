@@ -7,6 +7,7 @@ CMakeFiles/demo.dir/main.cpp.o: ../src/./loss.h
 CMakeFiles/demo.dir/main.cpp.o: ../src/./optimizer.h
 CMakeFiles/demo.dir/main.cpp.o: ../src/./utils.h
 CMakeFiles/demo.dir/main.cpp.o: ../src/data.h
+CMakeFiles/demo.dir/main.cpp.o: ../src/embedding.h
 CMakeFiles/demo.dir/main.cpp.o: ../src/layer.h
 CMakeFiles/demo.dir/main.cpp.o: ../src/layer/full_connect.h
 CMakeFiles/demo.dir/main.cpp.o: ../src/layer/relu.h

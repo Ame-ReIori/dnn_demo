@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/DNNLib.dir/data.cpp.o"
+  "CMakeFiles/DNNLib.dir/embedding.cpp.o"
   "CMakeFiles/DNNLib.dir/network.cpp.o"
   "CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o"
   "CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o"

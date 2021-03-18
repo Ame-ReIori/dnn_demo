@@ -81,9 +81,33 @@ src/CMakeFiles/DNNLib.dir/data.cpp.o.provides: src/CMakeFiles/DNNLib.dir/data.cp
 src/CMakeFiles/DNNLib.dir/data.cpp.o.provides.build: src/CMakeFiles/DNNLib.dir/data.cpp.o
 
 
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o: ../src/embedding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/DNNLib.dir/embedding.cpp.o"
+	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/embedding.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.cpp
+
+src/CMakeFiles/DNNLib.dir/embedding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DNNLib.dir/embedding.cpp.i"
+	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.cpp > CMakeFiles/DNNLib.dir/embedding.cpp.i
+
+src/CMakeFiles/DNNLib.dir/embedding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DNNLib.dir/embedding.cpp.s"
+	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.cpp -o CMakeFiles/DNNLib.dir/embedding.cpp.s
+
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/DNNLib.dir/embedding.cpp.o.requires
+
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o.provides: src/CMakeFiles/DNNLib.dir/embedding.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/DNNLib.dir/build.make src/CMakeFiles/DNNLib.dir/embedding.cpp.o.provides.build
+.PHONY : src/CMakeFiles/DNNLib.dir/embedding.cpp.o.provides
+
+src/CMakeFiles/DNNLib.dir/embedding.cpp.o.provides.build: src/CMakeFiles/DNNLib.dir/embedding.cpp.o
+
+
 src/CMakeFiles/DNNLib.dir/network.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/network.cpp.o: ../src/network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/DNNLib.dir/network.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/DNNLib.dir/network.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/network.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/network.cpp
 
 src/CMakeFiles/DNNLib.dir/network.cpp.i: cmake_force
@@ -107,7 +131,7 @@ src/CMakeFiles/DNNLib.dir/network.cpp.o.provides.build: src/CMakeFiles/DNNLib.di
 
 src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o: ../src/optimizer/sgd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/optimizer/sgd.cpp
 
 src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.i: cmake_force
@@ -131,7 +155,7 @@ src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o.provides.build: src/CMakeFiles/DNN
 
 src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o: ../src/loss/cross_entropy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/loss/cross_entropy.cpp
 
 src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.i: cmake_force
@@ -155,7 +179,7 @@ src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/DNNLib.dir/loss/mse.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/loss/mse.cpp.o: ../src/loss/mse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/DNNLib.dir/loss/mse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/DNNLib.dir/loss/mse.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/loss/mse.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/loss/mse.cpp
 
 src/CMakeFiles/DNNLib.dir/loss/mse.cpp.i: cmake_force
@@ -179,7 +203,7 @@ src/CMakeFiles/DNNLib.dir/loss/mse.cpp.o.provides.build: src/CMakeFiles/DNNLib.d
 
 src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o: ../src/layer/full_connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/full_connect.cpp
 
 src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.i: cmake_force
@@ -203,7 +227,7 @@ src/CMakeFiles/DNNLib.dir/layer/full_connect.cpp.o.provides.build: src/CMakeFile
 
 src/CMakeFiles/DNNLib.dir/layer/relu.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/layer/relu.cpp.o: ../src/layer/relu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/DNNLib.dir/layer/relu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/DNNLib.dir/layer/relu.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/layer/relu.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/relu.cpp
 
 src/CMakeFiles/DNNLib.dir/layer/relu.cpp.i: cmake_force
@@ -227,7 +251,7 @@ src/CMakeFiles/DNNLib.dir/layer/relu.cpp.o.provides.build: src/CMakeFiles/DNNLib
 
 src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.o: src/CMakeFiles/DNNLib.dir/flags.make
 src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.o: ../src/layer/softmax.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.o"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DNNLib.dir/layer/softmax.cpp.o -c /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/softmax.cpp
 
 src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.i: cmake_force
@@ -252,6 +276,7 @@ src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.o.provides.build: src/CMakeFiles/DNN
 # Object files for target DNNLib
 DNNLib_OBJECTS = \
 "CMakeFiles/DNNLib.dir/data.cpp.o" \
+"CMakeFiles/DNNLib.dir/embedding.cpp.o" \
 "CMakeFiles/DNNLib.dir/network.cpp.o" \
 "CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o" \
 "CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o" \
@@ -264,6 +289,7 @@ DNNLib_OBJECTS = \
 DNNLib_EXTERNAL_OBJECTS =
 
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/data.cpp.o
+src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/embedding.cpp.o
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/network.cpp.o
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o
@@ -273,7 +299,7 @@ src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/layer/relu.cpp.o
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/layer/softmax.cpp.o
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/build.make
 src/libDNNLib.a: src/CMakeFiles/DNNLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libDNNLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ame/GraduationProject/Code/demo/dnn_demo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libDNNLib.a"
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && $(CMAKE_COMMAND) -P CMakeFiles/DNNLib.dir/cmake_clean_target.cmake
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DNNLib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -283,6 +309,7 @@ src/CMakeFiles/DNNLib.dir/build: src/libDNNLib.a
 .PHONY : src/CMakeFiles/DNNLib.dir/build
 
 src/CMakeFiles/DNNLib.dir/requires: src/CMakeFiles/DNNLib.dir/data.cpp.o.requires
+src/CMakeFiles/DNNLib.dir/requires: src/CMakeFiles/DNNLib.dir/embedding.cpp.o.requires
 src/CMakeFiles/DNNLib.dir/requires: src/CMakeFiles/DNNLib.dir/network.cpp.o.requires
 src/CMakeFiles/DNNLib.dir/requires: src/CMakeFiles/DNNLib.dir/optimizer/sgd.cpp.o.requires
 src/CMakeFiles/DNNLib.dir/requires: src/CMakeFiles/DNNLib.dir/loss/cross_entropy.cpp.o.requires

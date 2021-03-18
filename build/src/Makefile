@@ -152,6 +152,33 @@ data.cpp.s:
 	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build && $(MAKE) -f src/CMakeFiles/DNNLib.dir/build.make src/CMakeFiles/DNNLib.dir/data.cpp.s
 .PHONY : data.cpp.s
 
+embedding.o: embedding.cpp.o
+
+.PHONY : embedding.o
+
+# target to build an object file
+embedding.cpp.o:
+	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build && $(MAKE) -f src/CMakeFiles/DNNLib.dir/build.make src/CMakeFiles/DNNLib.dir/embedding.cpp.o
+.PHONY : embedding.cpp.o
+
+embedding.i: embedding.cpp.i
+
+.PHONY : embedding.i
+
+# target to preprocess a source file
+embedding.cpp.i:
+	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build && $(MAKE) -f src/CMakeFiles/DNNLib.dir/build.make src/CMakeFiles/DNNLib.dir/embedding.cpp.i
+.PHONY : embedding.cpp.i
+
+embedding.s: embedding.cpp.s
+
+.PHONY : embedding.s
+
+# target to generate assembly for a file
+embedding.cpp.s:
+	cd /home/ame/GraduationProject/Code/demo/dnn_demo/build && $(MAKE) -f src/CMakeFiles/DNNLib.dir/build.make src/CMakeFiles/DNNLib.dir/embedding.cpp.s
+.PHONY : embedding.cpp.s
+
 layer/full_connect.o: layer/full_connect.cpp.o
 
 .PHONY : layer/full_connect.o
@@ -353,6 +380,9 @@ help:
 	@echo "... data.o"
 	@echo "... data.i"
 	@echo "... data.s"
+	@echo "... embedding.o"
+	@echo "... embedding.i"
+	@echo "... embedding.s"
 	@echo "... layer/full_connect.o"
 	@echo "... layer/full_connect.i"
 	@echo "... layer/full_connect.s"

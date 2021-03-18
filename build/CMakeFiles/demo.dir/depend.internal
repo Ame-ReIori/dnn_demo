@@ -8,6 +8,7 @@ CMakeFiles/demo.dir/main.cpp.o
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/./optimizer.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/./utils.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/data.h
+ /home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/full_connect.h
  /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer/relu.h

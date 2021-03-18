@@ -31,6 +31,8 @@ src/loss/mse.h
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/loss/mse.h
 src/loss/cross_entropy.h
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/loss/cross_entropy.h
+src/embedding.h
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.h
 algorithm
 -
 vector
@@ -72,6 +74,12 @@ iomanip
 ./utils.h
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/./utils.h
 string
+-
+
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/embedding.h
+./utils.h
+/home/ame/GraduationProject/Code/demo/dnn_demo/src/./utils.h
+unordered_map
 -
 
 /home/ame/GraduationProject/Code/demo/dnn_demo/src/layer.h

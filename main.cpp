@@ -10,6 +10,7 @@
 #include "src/loss.h"
 #include "src/loss/mse.h"
 #include "src/loss/cross_entropy.h"
+#include "src/embedding.h"
 #include <algorithm>
 #include <vector>
 
@@ -28,6 +29,20 @@ int main(int argc, char **argv) {
     d.read("label.bin", 1, 0, 180, d.train_label);
     d.read("feature.bin", 2, 181, 200, d.test_data);
     d.read("label.bin", 1, 181, 200, d.test_label);
+    
+    #ifdef DEBUG
+        Embedding video_embed(1000);
+        Matrix video_list(10, 10);
+        Matrix video_embeded(10, 10);
+        int count = 0;
+        for(int i = 0; i < 10; i++) 
+            for (int j = 0; j < 10; j++)
+                video_list(i, j) = count++ ;
+        std::cout << video_list << std::endl;
+        video_embed.embed(video_list, video_embeded);
+        std::cout << video_embeded << std::endl;
+    #endif
+
 
     #ifdef DEBUG
         std::cout << std::fixed << std::setprecision(15) << d.train_data << std::endl;
